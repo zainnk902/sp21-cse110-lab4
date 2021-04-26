@@ -1,4 +1,4 @@
-##Part 1a
+## Part 1a
 1) Line 9 would print "values added: 20", since add is true, the first conitional would run, which just adds num1 and num2 and logs teh result, and 10+10 = 20, so 20 gets printed
 2) Line 13 would print "final result: 20", since after the if conditional ran, it would go straight to line 13, where result still is 20 from the previous conditional, so this line would also log 20. Rsult is a var, so once it was defined, it can be called anywhere after that. 
 3) Line 9 would print "values added: 20", since add is true, the first conitional would run, which just adds num1 and num2 and logs teh result, and 10+10 = 20, so 20 gets printed
@@ -6,7 +6,7 @@
 5) Line 9 wouldn't print anything, since tehre would be an error. When the first conditional gets ran, result is a constant set to 0. Since result is a constant, it cannot be reassigned, but it gets reassigned to num1+num2, so we get a TypeError.
 6) Line 13 wouldn't print anything either, fort the same reason why line 9 didn't print, because there is a TypeError, since constant variables can't be reassigned.
 
-##Part 1b
+## Part 1b
 1) Line 12 would print "3", since the for loop stops looping once i is equl to 3, since 3 would no longer be less than the length of prices, which is 3, so on line 12, since i is a var, i still is 3, so 3 gets printed
 2) Line 12 would print "150", since discountedPrice always represents the discountedPrice of the 'i'th index. The last index discounted was index 3, where the price was 300, and the discount was 50%, so the discountedPrice is 150.
 3) Line 12 would print "150", since finalPrice represents the final price of the last discounted item. So 150 was the last discounted item, and 150*100 = 1500, doesn't need to be rounded. 1500/100 = 150, so finalPrice is 150.
